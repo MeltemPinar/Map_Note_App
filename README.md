@@ -1,81 +1,24 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+#Map Note App
+
+This is a mobile application developed using React Native. The app integrates Google Maps to help users manage and track their locations. Users can select desired points on the map, add notes about these locations, and view a list of their notes. Firebase integration allows for user profile creation, profile photo changes, and user login/logout functionality. Additionally, users can switch between different map types. The app also utilizes React Navigation for stack and tab navigation, and includes various helper libraries for enhanced functionality.
 
 ![ZightRecording2024-08-24at12 34 35PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/70e49ff5-1dd1-4655-9b12-573db4cd09d2)
 
-# Getting Started
+## Features
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Google Maps Integration: Displays the current user location on the map.
 
-## Step 1: Start the Metro Server
+Location Selection: Allows users to select points on the map and add notes about these locations.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Note Management: Users can view and list the notes they have added.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Firebase User Management: Supports user login/logout, profile creation, and profile photo changes.
 
-```bash
-# using npm
-npm start
+Map Type Selection: Users can switch between different map views.
 
-# OR using Yarn
-yarn start
-```
+Navigation: Utilizes stack and tab navigation for seamless app navigation.
 
-## Step 2: Start your Application
+Profile Photo Selection: Allows users to pick and change profile photos using react-native-image-picker.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Location Data: Retrieves user location data using react-native-geolocation-service.
 
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
